@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Refresh Codacy",
+        "command": "Codacy:refresh"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "Codacy",
+          "submenu": [
+            {
+              "label": "Refresh",
+              "command": "Codacy:refresh"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

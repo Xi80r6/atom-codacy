@@ -1,0 +1,42 @@
+// The ui-variables file is provided by base themes provided by Atom.
+//
+// See https://github.com/atom/atom-dark-ui/blob/master/styles/ui-variables.less
+// for a full listing of what's available.
+@import "ui-variables";
+
+#codacy-bottom-container {
+	max-height: 300px;
+	overflow: auto;
+	padding: 4px;
+}
+
+#codacy-bottom-container .content {
+	display: none;
+}
+
+#codacy-bottom-container.expanded .content {
+	display: block;
+}
+
+#codacy-bottom-container .status {
+	color: @text-color-success;
+	cursor: pointer;
+}
+
+#codacy-bottom-container.issues .status {
+	color: @text-color-error;
+}
+
+#codacy-bottom-container .issue.warning {
+	color: @text-color-warning;
+}
+
+#codacy-bottom-container .issue.info {
+	color: @text-color-info;
+}
+
+#codacy-bottom-container .issue:before {
+	content: attr(data-line-number);
+	color: @text-color-subtle;
+	margin-right: 3px;
+}

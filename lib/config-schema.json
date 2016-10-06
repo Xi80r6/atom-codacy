@@ -1,0 +1,8 @@
+{
+	"projectToken": {
+		"type": "string",
+		"default": "projectToken",
+		"title": "Codacy Project API Token",
+		"description": "Can be found under Settings -> Integrations -> Project API"
+	}
+}

@@ -1,0 +1,25 @@
+{
+	"name": "Codacy",
+	"main": "./lib/atom-codacy",
+	"version": "0.0.0",
+	"description": "Integrate your Codacy linting rules into Atom",
+	"keywords": [
+		"Codacy",
+		"Linting",
+		"Code Review"
+	],
+	"repository": "https://github.com/Xi80r6/atom-codacy",
+	"license": "MIT",
+	"engines": {
+		"atom": ">=1.0.0 <2.0.0"
+	},
+	"configSchema": {
+		"projectToken": {
+			"type": "string",
+			"default": "",
+			"description": "Can be found under Settings -> Integrations -> Project API"
+		}
+	},
+	"dependencies": {
+	}
+}
