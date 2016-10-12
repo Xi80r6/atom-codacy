@@ -27,15 +27,15 @@
 	color: @text-color-error;
 }
 
-#codacy-bottom-container .issue.warning {
+#codacy-bottom-container .warning .issueText {
 	color: @text-color-warning;
 }
 
-#codacy-bottom-container .issue.info {
+#codacy-bottom-container .info .issueText {
 	color: @text-color-info;
 }
 
-#codacy-bottom-container .issue:before {
+#codacy-bottom-container .issue .line {
 	content: attr(data-line-number);
 	color: @text-color-subtle;
 	margin-right: 3px;
